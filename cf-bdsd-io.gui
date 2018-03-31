@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<gui>
+  <properties>
+    <project>cf-bdsd-io</project>
+    <designer>
+    </designer>
+    <size autoposition="scale">
+      <portrait width="768" height="1024" />
+      <landscape width="1024" height="768" />
+    </size>
+    <autoposition />
+    <imagefolder>assets</imagefolder>
+    <debug loaderrors="0" connectionerrors="0" />
+  </properties>
+  <themes>
+    <theme type="button" name=".simple[state='0']"><![CDATA[padding: 0px 0px 0px 0px;  filter: Alpha(Opacity=100); -moz-opacity:1; opacity: 1; background-color: #FF5555; color: #FFFFFF; font-size: 12px; font-family: 'Verdana'; font-weight: normal; font-style: none; text-decoration: none; text-align: center; vertical-align: middle; display: table-cell; box-sizing: border-box; -webkit-box-sizing: border-box; -webkit-tap-highlight-color:rgba(0,0,0,0);]]></theme>
+    <theme type="button" name=".simple[state='1']"><![CDATA[padding: 0px 0px 0px 0px;  filter: Alpha(Opacity=100); -moz-opacity:1; opacity: 1; background-color: #D70000; color: #FFFFFF; font-size: 12px; font-family: 'Verdana'; font-weight: normal; font-style: none; text-decoration: none; text-align: center; vertical-align: middle; display: table-cell; box-sizing: border-box; -webkit-box-sizing: border-box; -webkit-tap-highlight-color:rgba(0,0,0,0);]]></theme>
+  </themes>
+  <scripts>
+    <script name="js/socket.io.js" />
+    <script name="js/userMain.js" />
+  </scripts>
+  <page name="Startup" folder="" j="0" tags="" transition="" subtype="" time="0" ease="" start="1">
+    <portrait />
+    <landscape>
+      <btn j="43" x="80" y="95" w="149" h="51" t="simple" flip="None" sim="0" l="0" s="1" tags="">
+        <inactive s="0">switch dp 43</inactive>
+        <active s="0">switch dp 43</active>
+      </btn>
+    </landscape>
+  </page>
+</gui>
